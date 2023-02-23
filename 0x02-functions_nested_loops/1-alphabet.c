@@ -1,12 +1,16 @@
 #include "main.h"
-
 /**
- * mul - multiplies two integers.
- * @a: first number.
- * @b: second number.
- * Return: multiplication.
+ * print_alphabet - prints all alphabets in lowercase.
+ * Return: On success 1.
  */
-int mul(int a, int b)
+void print_alphabet(void)
 {
-	return (a * b);
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+	_putchar(i);
+	}
+	_putchar('\n');
+
 }
